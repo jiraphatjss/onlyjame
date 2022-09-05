@@ -1,0 +1,8 @@
+eventdev = "https://events.dev.biggestfan.net/"
+eventstaging = "https://events.staging.biggestfan.net/"
+upcoming_event_A = "music-festival"
+previous_event_A = "'stamp-live-in-concert'"
+artist_A_name = "Metallica"
+artist_A_slug = "metallica"
+artist_A_id = "001"
+artist=  "Stamp"

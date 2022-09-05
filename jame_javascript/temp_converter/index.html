@@ -1,0 +1,56 @@
+<head>
+    <style>
+        div.fahrenheit_or_celsius{
+            display:flex;
+            justify-content: space-around;
+        }
+        h3.f_to_c{
+            position: relative;
+            left: 150px;
+        }
+        h3.c_to_f{
+            position: relative;
+            right: 150px;
+        }
+        div.temp_calculator{
+            display:flex;
+            justify-content: center;
+        }
+        div.fah_cal{
+            position: relative;
+            right: 70px;
+        }
+        div.cel_cal{
+            position: relative;
+            left: 45px;
+        }
+        .value_box{
+            outline: none;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Temperature converter</h1>
+    <div class="fahrenheit_or_celsius">
+        <h3 class="f_to_c">Fahrenheit to Celsius</h3>
+        <h3 class="c_to_f">Celsius to Fahrenheit</h3>
+    </div>
+    <div class="temp_calculator">
+        <div class="fah_cal">
+            <label>Fahrenheit&nbsp;:&nbsp;
+                <input type="text" class="value_box" id="fah_input">
+                <button onclick="fah_toCel()">convert</button>
+            </label>
+            <p id="cel_result"></p>
+        </div>
+        <div class="cel_cal">
+            <label>Celsius&nbsp;:&nbsp;
+                <input type="text" class="value_box" id="cel_input">
+                <button onclick="cel_toFah()">convert</button>
+            </label>
+            <p id="fah_result"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
